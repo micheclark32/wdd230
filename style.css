@@ -9,12 +9,12 @@
 header {
   background-color: #008b8b;
   text-align: center;
-  width: 100%;
+  max-width: 150%;
   border: 2px solid black;
   border-radius: 5px;
 }
 
-footer {
+.footer {
   background-color: #008b8b;
   text-align: center;
 }
