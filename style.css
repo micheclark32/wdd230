@@ -1,6 +1,6 @@
 #form {
   background-color: white;
-  width: 500px;
+  width: 400px;
   border: 10px solid black;
   padding: 50px;
   margin: 20px;
@@ -9,7 +9,7 @@
 header {
   background-color: #008b8b;
   text-align: center;
-  width: fit-content;
+  width: fill;
   border: 2px solid black;
   border-radius: 5px;
 }
