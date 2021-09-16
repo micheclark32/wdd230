@@ -17,4 +17,6 @@ header {
 .footer {
   background-color: #008b8b;
   text-align: center;
+  height: 100px;
+  max-width: max-content;
 }
