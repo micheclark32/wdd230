@@ -8,4 +8,6 @@
 
 header {
   background-color: #008b8b;
+  border: 2px solid black;
+  border-radius: 5px;
 }
