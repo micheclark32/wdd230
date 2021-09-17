@@ -17,8 +17,9 @@ header {
 .footer {
   background-color: #008b8b;
   text-align: center;
-  width: 115%;
+  width: 110%;
   height: 50px;
+  justify-content: left;
 }
 
 #sec2 {
