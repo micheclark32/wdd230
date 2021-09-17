@@ -1,14 +1,15 @@
 header {
   background-color: #008b8b;
   text-align: center;
-  width: 80%;
+  width: 50%;
   border: 2px solid black;
   border-radius: 5px;
+  text-transform: uppercase;
 }
 
 .footer {
   background-color: #008b8b;
   text-align: center;
-  width: 80%;
+  width: 50%;
   height: 50px;
 }
