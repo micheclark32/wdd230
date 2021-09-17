@@ -12,4 +12,4 @@ var objToday = new Date(),
 	curMeridiem = objToday.getHours() > 12 ? "PM" : "AM";
 var today = curHour + ":" + curMinute + "." + curSeconds + curMeridiem + " " + dayOfWeek + " " + dayOfMonth + " of " + curMonth + ", " + curYear;
 
-document.getElementsByTagName('time')[0].textContent = today;
+document.getElementsByTagName('h3')[0].textContent = today;
