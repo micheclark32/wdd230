@@ -1,7 +1,7 @@
 header {
   background-color: #008b8b;
   text-align: center;
-  max-width: 150%;
+  width: 80%;
   border: 2px solid black;
   border-radius: 5px;
 }
@@ -9,6 +9,6 @@ header {
 .footer {
   background-color: #008b8b;
   text-align: center;
-  width: 100%;
+  width: 80%;
   height: 50px;
 }
