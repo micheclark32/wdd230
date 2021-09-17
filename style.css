@@ -15,8 +15,7 @@ header {
 }
 
 .selfie {
-  width: 450px;
-  height: 300px;
+  max-width: 30%;
   display: flex;
   flex-flow: row wrap;
   justify-content: right;
