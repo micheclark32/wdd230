@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap");
+
+.package-grid:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.basic,
+.standard,
+.premium {
+  float: left;
+  width: 31%;
+  padding: 10px;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  background-color: #008b8b;
+  text-align: center;
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+h1,
+h2 {
+  font-family: "Bebas Neue", serif;
+  text-decoration: underline;
+}
+
+p {
+  font-family: "Rajdhani", serif;
+}
