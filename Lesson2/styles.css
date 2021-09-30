@@ -3,16 +3,18 @@
 
 .package-grid:after {
   content: "";
-  display: table;
+  display: grid;
   clear: both;
 }
 
-.basic,
-.standard,
-.premium {
+.amazon,
+.rotton,
+.apple {
   float: left;
   width: 31%;
   padding: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
 }
 
 img {
@@ -36,4 +38,10 @@ h2 {
 
 p {
   font-family: "Rajdhani", serif;
+}
+
+.Basic-img {
+  width: fit-content;
+  height: 700px;
+  display: block;
 }
