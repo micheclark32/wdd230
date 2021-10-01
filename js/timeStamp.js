@@ -13,3 +13,6 @@ var objToday = new Date(),
 var today = curHour + ":" + curMinute + "." + curSeconds + curMeridiem + " " + dayOfWeek + " " + dayOfMonth + " of " + curMonth + ", " + curYear;
 
 document.getElementsByTagName('h3')[0].textContent = today;
+
+var yearoptions = {year: "numeric"}
+document.querySelector("#currentyear").textContent = new Date().toLocaleDateString("en-US", yearoptions)
