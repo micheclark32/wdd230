@@ -1,17 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap");
 
-.package-grid:after {
-  content: "";
+.package-grid {
   display: grid;
-  clear: both;
+  grid-template-columns: 1fr;
 }
 
 .amazon,
 .rotton,
 .apple {
   float: left;
-  width: 31%;
+  width: 80%;
   padding: 10px;
   border-radius: 10px;
   border: 1px solid black;
@@ -44,4 +43,16 @@ p {
   width: fit-content;
   height: 700px;
   display: block;
+}
+
+@media only screen and (min-width: 700px) {
+  .package-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 1050px) {
+  .package-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
