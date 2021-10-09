@@ -1,0 +1,33 @@
+@media only screen and (min-width: 40em) {
+  h2 {
+    font-size: 25px;
+  }
+  p {
+    font-size: 16px;
+  }
+  header img {
+    width: 128px;
+  }
+  section {
+    font-size: 22px;
+  }
+  .navigation {
+    display: flex;
+  }
+  .navigation li {
+    flex: 1 1 auto;
+    display: block;
+  }
+  .navigation li:first-child {
+    display: none;
+  }
+  .navigation a {
+    font-size: 20px;
+  }
+  nav ul {
+    flex-flow: row wrap;
+  }
+  footer p {
+    font-size: 18px;
+  }
+}

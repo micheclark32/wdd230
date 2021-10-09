@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300&display=swap");
+
+.logo {
+  width: 80px;
+  height: auto;
+  padding: 10px;
+}
+
+header {
+  background-color: #fff;
+  padding: 5px 0;
+  font-family: "Bebas Neue";
+  font-size: larger;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  word-break: normal;
+}
+
+nav {
+  margin: 0 auto;
+  max-width: 760px;
+  background-color: #0a4862;
+  font-family: "Oswald";
+}
+.navbar {
+  list-style: none;
+  padding: 0;
+}
+.navbar li:first-child {
+  display: block;
+}
+.navbar li {
+  display: none;
+}
+.navbar a {
+  display: block;
+  padding: 0.75rem;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  transition: 0.5s;
+}
+.navbar a:hover {
+  color: white;
+  background-color: #869eb8;
+}
+
+/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+  <ul class="navigation responsive">
+*/
+.responsive li {
+  display: block;
+}
+
+/* Media Query for medium+ views */
+@media only screen and (min-width: 32.5em) {
+  .navbar {
+    display: flex;
+  }
+  .navbar li {
+    display: block; /* change state in small view */
+    flex: 1 1 auto;
+  }
+  .navbar a {
+    text-align: center;
+  }
+  .navbar li:first-child {
+    display: none;
+  }
+}
+
+footer {
+  background-color: #0a4862;
+  display: flex;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+footer,
+main {
+  max-width: 80em;
+  margin: 0 auto;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+main div {
+  border: dotted 1px #0a4862;
+  background-color: #cacfd4;
+  margin: 15px;
+  padding: 15px;
+}
