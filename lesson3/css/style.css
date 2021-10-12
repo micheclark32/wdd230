@@ -26,7 +26,7 @@ h3 {
 
 ul {
   list-style-type: none;
-  margin: 8;
+  margin: 0;
   padding: 10px;
   overflow: hidden;
   background-color: #333;
@@ -37,11 +37,8 @@ li {
 }
 
 li a {
-  display: block;
   color: white;
-  text-align: center;
   padding: 20px 20px;
-  text-decoration: none;
 }
 
 li a:hover {
@@ -55,16 +52,6 @@ li a:hover {
   margin-right: auto;
   display: block;
   padding: 15px;
-}
-
-@media all and (max-width: 600px) {
-  .container {
-    flex-wrap: wrap;
-  }
-
-  .container > li {
-    flex-basis: 50%;
-  }
 }
 
 .color {
@@ -83,4 +70,16 @@ li a:hover {
   margin-right: auto;
   display: block;
   padding: 15px;
+}
+
+@media only screen and (min-width: 700px) {
+  .package-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 1050px) {
+  .package-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
