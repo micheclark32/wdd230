@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300&display=swap");
+
 header {
   background-color: #149ceb;
   text-align: center;
@@ -23,4 +25,8 @@ header {
   justify-content: right;
   padding: 10px;
   box-shadow: 5px 5px 5px black;
+}
+
+body {
+  font-family: "Oswald";
 }

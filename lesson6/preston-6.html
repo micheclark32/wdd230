@@ -10,7 +10,7 @@
       <script src="https://kit.fontawesome.com/9e29f97517.js" crossorigin="anonymous"></script>
       <script src="js/navbar.js"></script>
       <script src="js/time.js"></script>
-    
+    <!---Header-->
     <title>WeatherBomb.com</title>
     </head>
     <body>
@@ -21,6 +21,7 @@
     <header>
       <img class="logo" src="images/lightning.png"><section>WeatherBomb.com<br><br>"We make the weather cool"</section>
     </header>
+    <!--Nabbar-->
     <nav>
         <ul class="navbar">
         <li><a href="#" onclick="toggleMenu()">&#9776;Main</a></li>
@@ -32,7 +33,7 @@
         <li><a href="#">Gallery</a></li>
     </ul>
       </nav>
-
+<!--Weather summary box with picture behind-->
 <main>
   <h2>Preston Idaho</h2>
                 <div class="hero">
@@ -40,16 +41,19 @@
                         <h3>Weather Summary</h3>
                         <ul>
                             <li>Currently: <span class="sum">Sunny</span></li>
-                            <li>High: <span class="sum">76 °F</span></li>
-                            <li>Wind Chill: <span class="sum"> °F</span></li>
+                            <li>High: <span class="sum" id="temp">45 </span>°F</li>
+                            <li>Wind Chill: <span class="sum" id="windchill"></span>°F</li>
                             <li>Humidity: <span class="sum">69%</span></li>
-                            <li>Wind Speed: <span class="sum">5 mph</span></li>
+                            <li>Wind Speed: <span class="sum" id="wind">5 </span>mph</li>
                         </ul>
                     </article>
                     <picture>
-                     <source srcset="images/new_med.jpg" media="(min-width:450px) and (max-width:700px)"><source srcset="images/new_larg.jpg" media="(min-width:60em)"> <img src="images/new_small.jpg" alt="hill view">
+                     <source srcset="images/new_med.jpg" media="(min-width:600px) and (max-width:850px)">
+                     <source srcset="images/new_larg.jpg" media="(min-width:1000px)"> 
+                     <img src="images/new_small.jpg" alt="hill view">
                 </picture>
                 </div>
+    <!--Forcast that appears only on large screen-->            
     <h3>5 Day Forecast</h3>
     <div class="forcast">
       <article>
@@ -78,10 +82,26 @@
           <p>72°F</p>
       </article>
   </div>
-    <h2>Article</h2>
+<!--Article and Contact boxes.-->
+   <h2>Article</h2>
+    <div class="article">
+    <h4>"What Students Are Saying About Video Game Limits, Parental Involvement in Dating and Road Trips"</h4>
+    <picture class="">
+      <source srcset="images/game_med.jpg" media="(min-width:600px) and (max-width:850px)">
+      <source srcset="images/game_large.jpg" media="(min-width:1000px)"> 
+      <img src="images/game_small.jpg" alt="map location">
+      </picture>
+    <p>This week, we asked teenagers if there should be limits on the amount of time that young people spend playing video games; what place, if any, their parents had in their dating lives; and if they’ve ever taken a road trip.<a href="https://www.nytimes.com/2021/10/14/learning/what-students-are-saying-about-video-game-limits-parental-involvement-in-dating-and-road-trips.html">Continues to read, click here</a></p>
+  </div>
+
     <h2>Contact</h2>
     <div class="contact">
-      <img src="images/map.png">
+      <picture>
+        <source srcset="images/map_med.jpg" media="(min-width:600px) and (max-width:850px)">
+        <source srcset="images/map_larg.jpg" media="(min-width:1000px)"> 
+        <img src="images/map_small.jpg" alt="map location">
+   </picture>
+  
       <div>
           <ul>
               <li>WeatherBomb.com</li>
@@ -100,10 +120,11 @@
   </div>
 </main>
 
-
+<!--Footer with updated time-->
 <footer>
     <p>&#169;<span id= "currentyear"></span> • Michael Clark • Washington • <a href="https://www.byui.edu/online">BYU Online</a> </p> 
     <script src= "js/time.js"></script>
+    <script src="js/windChill.js"></script>
   </footer>
 </body>
 </html>
