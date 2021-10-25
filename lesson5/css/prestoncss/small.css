@@ -147,7 +147,14 @@ h3 {
   border: dotted 1px #0a4862;
   background-color: #cacfd4;
   padding: 1em;
-  font-family: "Cabin", sans-serif;
+  color: #0a4862;
+}
+
+.article {
+  border: dotted 1px #0a4862;
+  background-color: #cacfd4;
+  padding: 1em;
+  font-family: "Oswald", sans-serif;
   color: #0a4862;
 }
 
