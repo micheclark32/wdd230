@@ -1,3 +1,4 @@
+const date = new Date();
 let banner = document.getElementById("banner");
 let day = date.getDay();
 
