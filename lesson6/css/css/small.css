@@ -155,6 +155,10 @@ h3 {
   box-shadow: 5px 5px 5px #474751;
 }
 
+.contact img {
+  width: 100%;
+}
+
 .contact li {
   list-style: none;
   font-family: "Oswald";
@@ -169,6 +173,10 @@ h3 {
   font-family: "Oswald";
   font-size: larger;
   box-shadow: 5px 5px 5px #474751;
+}
+
+.article img {
+  width: 100%;
 }
 
 .article h4 {

@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="../css/normalize.css">
+      <link rel="stylesheet" href="css/small.css">
+      <link rel="stylesheet" href="css/medium.css">
+      <link rel="stylesheet" href="css/large.css">
+     
+    <!---Header-->
+    <title>WeatherBomb.com</title>
+    </head>
+    <body>
+      <div id="banner">
+      <p>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</p>
+    </div>
+
+    <header>
+      <img class="logo" src="images/lightning.png"><section>WeatherBomb.com<br><br>"We make the weather cool"</section>
+    </header>
+    <!--Nabbar-->
+    <nav>
+        <ul class="navbar">
+        <li><a href="#" onclick="toggleMenu()">&#9776;Main</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="#">Storm Center</a></li>
+        <li><a href="#" class="current">Gallery</a></li>
+    </ul>
+      </nav>
+<!--Weather Gallery-->
+<main>
+  <h2>Weather Gallery</h2>
+  <section>
+    <picture>
+        <img src="images/placeholder.jpg" data-src="images/blizzard.jpg"/>
+        <p>Snowy</p>
+    </picture>
+    <picture>
+        <img src="images/placeholder.jpg" data-src="images/dark_clouds.jpg"/>
+        <p>Cloudy</p>
+    </picture>
+    <picture>
+        <img src="images/placeholder.jpg" data-src="images/lightning_field.jpg"/>
+        <p>Lightning</p>
+    </picture>
+    <picture>
+        <img src="images/placeholder.jpg" data-src="images/part_cloud.jpg"/>
+        <p>Sunny Clear Day</p>
+    </picture>
+    <picture>
+        <img src="images/placeholder.jpg" data-src="images/rainbow.jpg"/>
+        <p>After Rain</p>
+    </picture>
+    <picture>
+        <img src="images/placeholder.jpg" data-src="images/roadway.jpg"/>
+        <p>Rainstorm</p>
+    </picture>
+    <picture>
+        <img src="images/placeholder.jpg" data-src="images/storm.jpg"/>
+        <p>Wind and Rain</p>
+    </picture>
+    <picture>
+        <img src="images/placeholder.jpg" data-src="images/thunderstorm.jpg"/>
+        <p>Thunderstorm</p>
+    </picture>
+    <picture>
+        <img src="images/placeholder.jpg" data-src="images/windy.jpg"/>
+        <p>Hurricane</p>
+    </picture>
+</section>
+</main>
+
+<!--Footer-->
+<footer>
+    <p>&#169;<span id= "currentyear"></span> • Michael Clark • Washington • <a href="https://www.byui.edu/online">BYU Online</a> </p> 
+    <script src= "js/time.js"></script>
+    <script src="https://kit.fontawesome.com/9e29f97517.js" crossorigin="anonymous"></script>
+      <script src="js/navbar.js"></script>
+      <script src="js/satbanner.js"></script>
+      <script src="js/time.js"></script>
+      <script src="js/main.js"></script>
+  </footer>
+</body>
+</html>
