@@ -1,0 +1,54 @@
+:root {
+  --back: #7fb9c2;
+  --back2: #628ca6;
+  --foredark: hsla(0, 0%, 10%, 1);
+  --border: hsl(0, 0%, 20%);
+  --borderlight: hsl(0, 0%, 33%);
+  --shadow: hsl(0, 0%, 50%);
+  --even: #e7ffed;
+  --odd: #e7f0ed;
+}
+
+table {
+  margin: 10px auto;
+  border: thin solid var(--border);
+  box-shadow: 0 0 30px var(--shadow);
+  border-collapse: collapse;
+}
+
+caption {
+  padding: 10px;
+  caption-side: bottom;
+  color: var(--back);
+  font-size: 0.85rem;
+}
+
+tr:first-child th {
+  background-color: var(--back);
+}
+
+th,
+td {
+  padding: 7px 15px;
+  border: 1px solid var(--borderlight);
+}
+
+th {
+  background-color: var(--back2);
+}
+
+td {
+  text-align: center;
+}
+
+tbody tr:nth-child(even) {
+  background-color: var(--even);
+}
+
+tbody tr:nth-child(odd) {
+  background-color: var(--odd);
+}
+
+tfoot {
+  background-color: var(--back);
+}
