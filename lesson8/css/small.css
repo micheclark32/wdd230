@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300&display=swap");
+
+.logo {
+  width: 80px;
+  height: auto;
+  padding: 10px;
+}
+
+header {
+  background-color: #fff;
+  padding: 5px 0;
+  font-family: "Bebas Neue";
+  font-size: larger;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  word-break: normal;
+}
+
+nav {
+  margin: 0 auto;
+  max-width: 760px;
+  background-color: #0a4862;
+  font-family: "Oswald";
+}
+.navbar {
+  list-style: none;
+  padding: 0;
+}
+.navbar li:first-child {
+  display: block;
+}
+.navbar li {
+  display: none;
+}
+.navbar a {
+  display: block;
+  padding: 0.75rem;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  transition: 0.5s;
+}
+.navbar a:hover {
+  color: white;
+  background-color: #869eb8;
+}
+
+.navbar .current {
+  background-color: rgb(132, 178, 243);
+}
+
+.responsive li {
+  display: block;
+}
+
+footer {
+  background-color: #0a4862;
+  display: flex;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#banner {
+  background-color: #145c9e;
+  color: #2e2e38;
+  margin: -1em;
+  padding: 1em;
+  font-size: 1.5em;
+  text-align: center;
+  width: 100%;
+}
+
+h2 {
+  font-family: "Bebas Neue";
+  text-align: center;
+  text-decoration: underline;
+}
+
+#timestamp {
+  text-align: center;
+}
+
+/*---Form page--*/
+
+form fieldset {
+  margin: 2rem 0;
+  border: 1px solid #0a4862;
+  border-radius: 10px;
+  padding: 0.5rem 2%;
+}
+
+form legend {
+  color: #0a4862;
+  margin: 0 1rem;
+  padding: 0 0.5rem;
+  text-align: center;
+  font-family: "Oswald";
+}
+
+form label.form,
+form div {
+  display: block;
+  padding-top: 1rem;
+  color: #0a4862;
+  font-size: 0.8rem;
+  font-family: "Oswald";
+}
+
+form label.form input,
+form label.form select {
+  display: block;
+  font-size: 1rem;
+  border: solid 1px rgb(171, 167, 167);
+  border-radius: 4px;
+  padding: 0.75rem;
+  color: #555;
+  width: 100%;
+  max-width: 20rem;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+form label.txtArea {
+  display: grid;
+  padding: 15px;
+  width: 50%;
+}
+
+form input.submitBtn {
+  border: none;
+  align-items: center;
+  background-color: #0a4862;
+  color: white;
+  border-radius: 1rem;
+  padding: 0.75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 100%;
+  max-width: 20rem;
+}
+
+form label.form input:required {
+  border-left: #0a4862 solid 6px;
+}
+
+main {
+  padding: 0 2%;
+  min-height: 20rem;
+}
