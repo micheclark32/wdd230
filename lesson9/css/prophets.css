@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300&display=swap");
+
+body {
+  font-family: "Oswald";
+  background-color: #0a4862;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 80em;
+}
+
+header,
+footer {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: #0a4862;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 22px;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: black;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+  padding: 1rem;
+  background-color: white;
+  justify-items: center;
+  box-shadow: 0 0 2px cornsilk;
+}
+
+.cards section {
+  text-align: center;
+  padding: 1rem;
+  border: solid 2px gray;
+  background-color: #94c2e7;
+  max-width: 300px;
+  color: black;
+}
+
+.cards section img {
+  width: 75%;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 1rem;
+  color: white;
+}
+
+@media screen and (max-width: 700px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 668px) {
+  body {
+    margin: 0;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}

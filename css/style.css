@@ -20,7 +20,7 @@ header {
 
 .selfie {
   max-width: 10%;
-  display: flex;
+  display: block;
   flex-flow: column wrap;
   justify-content: right;
   padding: 10px;
@@ -29,4 +29,5 @@ header {
 
 body {
   font-family: "Oswald";
+  justify-content: center;
 }
