@@ -1,6 +1,6 @@
 :root {
   --back: #7fb9c2;
-  --back2: #628ca6;
+  --back2: #357d88;
   --foredark: hsla(0, 0%, 10%, 1);
   --border: hsl(0, 0%, 20%);
   --borderlight: hsl(0, 0%, 33%);
@@ -14,6 +14,7 @@ table {
   border: thin solid var(--border);
   box-shadow: 0 0 30px var(--shadow);
   border-collapse: collapse;
+  font-family: Ubunta, sans-serif;
 }
 
 caption {
@@ -31,6 +32,18 @@ th,
 td {
   padding: 7px 15px;
   border: 1px solid var(--borderlight);
+}
+
+td.italic {
+  font-style: italic;
+}
+
+td.strong {
+  font-weight: 900;
+}
+
+td.newcolor {
+  background-color: var(--back2);
 }
 
 th {
