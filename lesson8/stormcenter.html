@@ -37,7 +37,7 @@
             
             <fieldset>
                 <legend>User Information</legend>
-                 <label class="form">Full Name* <input type="text" name="name" pattern="[A-Za-z]{3,} [A-Za-z]{2,} [A-Za-z]{}" required
+                 <label class="form">Full Name* <input type="text" name="name" pattern="[a-zA-Z]*" required
                                     placeholder="5 letters minimum" /></label>
             
                     <label class="form">Email <input type="email" name="email" placeholder="mike@gmail.com" /></label>
@@ -65,7 +65,7 @@
                  </label>
 <!-- Range --> 
                 <label class="form" for="rating">Storm Severity (between 0 and 10)
-                 <input type="range" name="stormRange" id="rating" value="5" min="0" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                 <input type="range" name="stormrating" id="rating" value="5" min="0" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                  <span id="ratingvalue">5</span>
                 </label>
                 <datalist id="tickmarks">

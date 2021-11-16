@@ -90,13 +90,13 @@ form fieldset {
   margin: 2rem 0;
   border: 1px solid #0a4862;
   border-radius: 10px;
-  padding: 0.5rem 2%;
+  padding: 0.5rem;
 }
 
 form legend {
   color: #0a4862;
   margin: 0 1rem;
-  padding: 0 0.5rem;
+  padding: 0.5rem;
   text-align: center;
   font-family: "Oswald";
 }
@@ -116,10 +116,10 @@ form label.form select {
   font-size: 1rem;
   border: solid 1px rgb(171, 167, 167);
   border-radius: 4px;
-  padding: 0.75rem;
   color: #555;
   width: 100%;
   max-width: 20rem;
+  max-height: 40rem;
   background-color: rgba(0, 0, 0, 0.1);
 }
 
