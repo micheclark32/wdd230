@@ -38,15 +38,18 @@ td.italic {
 }
 
 td.strong {
-  font-weight: 900;
+  font-weight: 600;
+  font-size: small;
 }
 
 td.newcolor {
   background-color: var(--back2);
+  color: white;
 }
 
-th {
+th.white {
   background-color: var(--back2);
+  color: white;
 }
 
 td {
