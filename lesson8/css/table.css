@@ -1,7 +1,6 @@
 :root {
   --back: #7fb9c2;
   --back2: #357d88;
-  --foredark: hsla(0, 0%, 10%, 1);
   --border: hsl(0, 0%, 20%);
   --borderlight: hsl(0, 0%, 33%);
   --shadow: hsl(0, 0%, 50%);
@@ -64,4 +63,8 @@ tbody tr:nth-child(odd) {
 
 tfoot {
   background-color: var(--back);
+}
+
+body {
+  color: black;
 }
