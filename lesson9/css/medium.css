@@ -1,4 +1,7 @@
-@media only screen and (min-width: 40em) {
+@media only screen and (min-width: 50em) {
+  h2 {
+    font-size: 25px;
+  }
   p {
     font-size: 16px;
   }
@@ -30,6 +33,12 @@
 }
 
 @media only screen and (min-width: 620px) {
+  main {
+    width: 100%;
+    max-width: 750px;
+    margin: 0 auto;
+  }
+
   header img {
     width: 130px;
     height: 130px;
@@ -42,6 +51,35 @@
 
   h1 {
     font-size: 3em;
+  }
+
+  h3 {
+    display: block;
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  .article img {
+    float: right;
+    width: 300px;
+    margin: 0 1em 1em;
+  }
+
+  .article {
+    margin-bottom: 50px;
+  }
+
+  .contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  article {
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
   }
 }
 
@@ -58,18 +96,5 @@
   }
   .navbar li:first-child {
     display: none;
-  }
-
-  main section {
-    grid-template-columns: 1fr 1fr;
-    margin: auto;
-    margin-right: 10px;
-    margin-left: 10px;
-  }
-  main h2 {
-    font-size: 2rem;
-  }
-  main p {
-    font-size: 1.1em;
   }
 }

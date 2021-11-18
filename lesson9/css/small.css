@@ -51,6 +51,9 @@ nav {
   background-color: rgb(132, 178, 243);
 }
 
+/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+  <ul class="navigation responsive">
+*/
 .responsive li {
   display: block;
 }
@@ -62,6 +65,65 @@ footer {
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+
+footer,
+main {
+  max-width: 80em;
+  margin: 0 auto;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.hero {
+  margin: 0.5em;
+}
+
+.hero img {
+  width: 100%;
+}
+
+.weathersum {
+  display: flex;
+  flex-direction: column;
+  background-color: #2c4f0c85;
+  width: 10em;
+  padding: 1px 10px 1px 10px;
+  position: absolute;
+  margin: 1em;
+  box-shadow: 0 5px 10px 0 #2e2e38;
+}
+
+.weathersum h3 {
+  font-family: "Oswald", "sans-serif";
+  text-align: center;
+  margin-bottom: -0.5em;
+  border-bottom: 2px solid #869eb8;
+  color: #fff;
+}
+
+.weathersum ul {
+  padding: 0;
+}
+
+.weathersum li {
+  list-style: none;
+  font-family: "Oswald", "serif";
+  margin: 4px;
+  text-align: center;
+  color: white;
+}
+
+.sum {
+  color: #869eb8;
+}
+
+.forcast {
+  display: none;
 }
 
 #banner {
@@ -80,6 +142,57 @@ h2 {
   text-decoration: underline;
 }
 
+h3 {
+  display: none;
+  font-family: "Bebas Neue";
+}
+
+.contact {
+  border: dotted 1px #0a4862;
+  background-color: #cacfd4;
+  padding: 1em;
+  color: #0a4862;
+  box-shadow: 5px 5px 5px #474751;
+}
+
+.contact img {
+  width: 100%;
+}
+
+.contact li {
+  list-style: none;
+  font-family: "Oswald";
+}
+
+.article {
+  border: dotted 1px #0a4862;
+  background-color: #cacfd4;
+  padding: 1em;
+  color: #0a4862;
+  text-align: center;
+  font-family: "Oswald";
+  font-size: larger;
+  box-shadow: 5px 5px 5px #474751;
+}
+
+.article img {
+  width: 100%;
+}
+
+.article h4 {
+  text-decoration: underline;
+}
+
+i {
+  width: 40px;
+  margin-top: 1em;
+}
+
+i:hover {
+  opacity: 0.7;
+}
+
+/******Wirefram CSS******/
 .center {
   display: block;
   margin-left: auto;

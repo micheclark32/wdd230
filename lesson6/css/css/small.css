@@ -51,9 +51,6 @@ nav {
   background-color: rgb(132, 178, 243);
 }
 
-/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
-  <ul class="navigation responsive">
-*/
 .responsive li {
   display: block;
 }
@@ -140,6 +137,7 @@ h2 {
   font-family: "Bebas Neue";
   text-align: center;
   text-decoration: underline;
+  text-size-adjust: 20px;
 }
 
 h3 {
