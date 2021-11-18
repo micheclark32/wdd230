@@ -12,7 +12,6 @@ fetch(requestURL)
     for (let i = 0; i < prophets.length; i++) {
 
       let card = document.createElement('section');
-      //I created the following code based on the code sample above
       let h2 = document.createElement('h2');
       let birth = document.createElement('p');
       let place = document.createElement('p');
