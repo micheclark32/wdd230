@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300&display=swap");
+
+.logo {
+  width: 80px;
+  height: auto;
+  padding: 10px;
+}
+
+header {
+  background-color: #fff;
+  padding: 5px 0;
+  font-family: "Bebas Neue";
+  font-size: larger;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  word-break: normal;
+}
+
+nav {
+  margin: 0 auto;
+  max-width: 760px;
+  background-color: #0a4862;
+  font-family: "Oswald";
+}
+.navbar {
+  list-style: none;
+  padding: 0;
+}
+.navbar li:first-child {
+  display: block;
+}
+.navbar li {
+  display: none;
+}
+.navbar a {
+  display: block;
+  padding: 0.75rem;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  transition: 0.5s;
+}
+.navbar a:hover {
+  color: white;
+  background-color: #869eb8;
+}
+
+.navbar .current {
+  background-color: rgb(132, 178, 243);
+}
+
+.responsive li {
+  display: block;
+}
+
+footer {
+  background-color: #0a4862;
+  display: flex;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+footer,
+main {
+  max-width: 80em;
+  margin: 0 auto;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.hero {
+  margin: 0.5em;
+}
+
+.hero img {
+  width: 100%;
+}
+
+.weathersum {
+  display: flex;
+  flex-direction: column;
+  background-color: #2c4f0c85;
+  width: 10em;
+  padding: 1px 10px 1px 10px;
+  position: absolute;
+  margin: 1em;
+  box-shadow: 0 5px 10px 0 #2e2e38;
+}
+
+.weathersum h3 {
+  font-family: "Oswald", "sans-serif";
+  text-align: center;
+  margin-bottom: -0.5em;
+  border-bottom: 2px solid #869eb8;
+  color: #fff;
+}
+
+.weathersum ul {
+  padding: 0;
+}
+
+.weathersum li {
+  list-style: none;
+  font-family: "Oswald", "serif";
+  margin: 4px;
+  text-align: center;
+  color: white;
+}
+
+.forcast {
+  display: none;
+}
+
+#banner {
+  background-color: #145c9e;
+  color: white;
+  margin: -1em;
+  padding: 1em;
+  font-size: 1.5em;
+  text-align: center;
+  width: 100%;
+}
+
+h2 {
+  font-family: "Bebas Neue";
+  text-align: center;
+  text-decoration: underline;
+  text-size-adjust: 20px;
+}
+
+h3 {
+  display: none;
+  font-family: "Bebas Neue";
+}
+
+.contact {
+  border: dotted 1px #0a4862;
+  background-color: #cacfd4;
+  padding: 1em;
+  color: #0a4862;
+  box-shadow: 5px 5px 5px #474751;
+}
+
+.contact img {
+  width: 100%;
+}
+
+.contact li {
+  list-style: none;
+  font-family: "Oswald";
+}
+
+.article {
+  border: dotted 1px #0a4862;
+  background-color: #cacfd4;
+  padding: 1em;
+  color: #0a4862;
+  text-align: center;
+  font-family: "Oswald";
+  font-size: larger;
+  box-shadow: 5px 5px 5px #474751;
+}
+
+.article img {
+  width: 100%;
+}
+
+.article h4 {
+  text-decoration: underline;
+}
+
+i {
+  width: 40px;
+  margin-top: 1em;
+}
+
+i:hover {
+  opacity: 0.7;
+}

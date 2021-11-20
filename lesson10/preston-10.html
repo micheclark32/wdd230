@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="../css/normalize.css">
+      <link rel="stylesheet" href="css/small.css">
+      <link rel="stylesheet" href="css/medium.css">
+      <link rel="stylesheet" href="css/large.css">
+      <script src="js/forcast.js"></script>
+      <script src="js/weatherapi.js"></script>
+      
+      
+    
+    <title>WeatherBomb.com</title>
+    </head>
+    <body>
+      <div id="banner">
+      <p>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</p>
+      </div>
+
+    <header>
+      <img class="logo" src="images/lightning.png"><section>WeatherBomb.com<br><br>"We make the weather cool"</section>
+    </header>
+    <nav>
+        <ul class="navbar">
+        <li><a href="#" onclick="toggleMenu()">&#9776;Main</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#" class="current">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="#">Storm Center</a></li>
+        <li><a href="#">Gallery</a></li>
+    </ul>
+      </nav>
+
+<main>
+  <h2>Preston Idaho</h2>
+                <div class="hero">
+                    <article class="weathersum">
+                        <h3>Weather Summary</h3>
+                        <ul>
+                            <li>Currently:<span id="condition"></span></li>
+                            <li>Temp: <span id="current-temp"></span></li>
+                            <li>Wind Chill: <span id="windchill"></span></li>
+                            <li>Humidity: <span id="humidity"></span></li>
+                            <li>Wind Speed: <span id="wind-speed"></span></li>
+                        </ul>
+                    </article>
+                    <picture>
+                        <source srcset="images/hero_small.jpg" media="(max-width:550px)">
+                        <source srcset="images/hero_med.jpg" media="(max-width:1000px)"> 
+                        <img src="images/hero_larg.jpg" alt="hill view">
+                   </picture>
+                </div>
+    <h3>5 Day Forecast</h3>
+    <div class="forcast">
+      <article>
+          <p class="weekday"><span id="day1"></span></p>
+          <img id="icon1" src="" alt="">
+          <p><span id="temp1"></span></p>
+      </article>
+      <article>
+          <p class="weekday"><span id="day2"></span></p>
+          <img id="icon2" src="" alt="">
+          <p><span id="temp2"></span></p>
+      </article>
+      <article>
+          <p class="weekday"><span id="day3"></span></p>
+          <img id="icon3" src="" alt="">
+          <p><span id="temp3"></span></p>
+      </article>
+      <article>
+        <p class="weekday"><span id="day4"></span></p>
+        <img id="icon4" src="" alt="">
+        <p><span id="temp4"></span></p>
+      </article>
+      <article>
+        <p class="weekday"><span id="day5"></span></p>
+        <img id="icon5" src="" alt="">
+        <p><span id="temp5"></span></p>
+      </article>
+  </div>
+  <h2>Article</h2>
+  <div class="article">
+  <h4>"What Students Are Saying About Video Game Limits, Parental Involvement in Dating and Road Trips"</h4>
+  <picture class="">
+    <source srcset="images/game_med.jpg" media="(min-width:600px) and (max-width:850px)">
+    <source srcset="images/game_large.jpg" media="(min-width:1000px)"> 
+    <img src="images/game_small.jpg" alt="map location">
+    </picture>
+  <p>This week, we asked teenagers if there should be limits on the amount of time that young people spend playing video games; what place, if any, their parents had in their dating lives; and if they’ve ever taken a road trip.<a href="https://www.nytimes.com/2021/10/14/learning/what-students-are-saying-about-video-game-limits-parental-involvement-in-dating-and-road-trips.html">Continues to read, click here</a></p>
+</div>
+    <h2>Contact</h2>
+    <div class="contact">
+      <img src="images/map.png">
+      <div>
+          <ul>
+              <li>WeatherBomb.com</li>
+              <li>1234 E Western Rd</li>
+              <li>Preston, ID 83263</li>
+          </ul>
+
+          <ul>
+              <li>&#9742; 208.291.2222</li>
+              <li>&#9993; weatherbomb@gmail.com</li> 
+              <a href="www.facebook.com"><i class="fab fa-facebook-square fa-2x"></i></a>
+              <a href="www.instagram.com"><i class="fab fa-instagram fa-2x"></i></a>
+              <a href="www.twitter.com"><i class="fab fa-twitter-square fa-2x"></i></a>
+          </ul>
+      </div>
+  </div>
+</main>
+
+
+<footer>
+    <p>&#169;<span id= "currentyear"></span> • Michael Clark • Washington • <a href="https://www.byui.edu/online">BYU Online</a> </p> 
+    <script src= "js/time.js"></script>
+    <script src="js/satbanner.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="https://kit.fontawesome.com/9e29f97517.js" crossorigin="anonymous"></script>
+  </footer>
+</body>
+</html>
