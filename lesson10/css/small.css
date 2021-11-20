@@ -119,6 +119,10 @@ main {
   display: none;
 }
 
+span.sum {
+  color: #869eb8;
+}
+
 #banner {
   background-color: #145c9e;
   color: white;
