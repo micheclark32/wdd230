@@ -6,37 +6,4 @@
   .navigation a {
     font-size: 22px;
   }
-
-  .townData {
-    grid-template-columns: 1fr 1fr 1fr;
-    margin: auto;
-    font-family: Oswald;
-    text-align: center;
-  }
-
-  .townData section {
-    grid-template-columns: 1fr;
-    justify-content: center;
-  }
-
-  .townData section:nth-child(odd) img {
-    grid-row: 3/4;
-    grid-column: 1;
-    width: 300px;
-    height: 100px;
-    margin: auto;
-  }
-
-  .townData section:nth-child(even) img {
-    grid-row: 3/4;
-    grid-column: 1;
-    width: 300px;
-    height: 100px;
-    margin: 3px 0 0;
-  }
-
-  .townData section:nth-child(even) p {
-    grid-column: 1;
-    height: 50%;
-  }
 }

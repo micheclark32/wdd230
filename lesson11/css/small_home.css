@@ -51,6 +51,9 @@ nav {
   background-color: rgb(132, 178, 243);
 }
 
+/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+  <ul class="navigation responsive">
+*/
 .responsive li {
   display: block;
 }
@@ -115,17 +118,17 @@ main {
   color: white;
 }
 
+.sum {
+  color: #869eb8;
+}
+
 .forcast {
   display: none;
 }
 
-span.sum {
-  color: #869eb8;
-}
-
 #banner {
   background-color: #145c9e;
-  color: white;
+  color: #2e2e38;
   margin: -1em;
   padding: 1em;
   font-size: 1.5em;
@@ -137,12 +140,12 @@ h2 {
   font-family: "Bebas Neue";
   text-align: center;
   text-decoration: underline;
-  text-size-adjust: 20px;
 }
 
 h3 {
-  display: none;
+  display: block;
   font-family: "Bebas Neue";
+  text-decoration: underline;
 }
 
 .contact {
@@ -181,77 +184,36 @@ h3 {
   text-decoration: underline;
 }
 
-i {
-  width: 40px;
-  margin-top: 1em;
-}
-
-i:hover {
-  opacity: 0.7;
-}
-
-/*---Form page--*/
-
-form fieldset {
-  margin: 2rem 0;
-  border: 1px solid #0a4862;
-  border-radius: 10px;
-  padding: 0.5rem;
-}
-
-form legend {
-  color: #0a4862;
-  margin: 0 1rem;
-  padding: 0.5rem;
-  text-align: center;
-  font-family: "Oswald";
-}
-
-form label.form,
-form div {
+/******Wirefram CSS******/
+.center {
   display: block;
-  padding-top: 1rem;
-  color: #0a4862;
-  font-size: 0.8rem;
-  font-family: "Oswald";
-}
-
-form label.form input,
-form label.form select {
-  display: block;
-  font-size: 1rem;
-  border: solid 1px rgb(171, 167, 167);
-  border-radius: 5px;
-  color: #555;
-  width: 100%;
-  max-width: 20rem;
-  max-height: 40rem;
-  background-color: rgba(8, 8, 8, 0.1);
-}
-
-form label.txtArea {
-  display: grid;
-  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
   width: 50%;
 }
 
-form input.submitBtn {
-  border: none;
-  align-items: center;
-  background-color: #0a4862;
-  color: white;
-  border-radius: 1rem;
-  padding: 0.75rem 1.5rem;
-  margin: 0 0 2rem 2%;
-  width: 100%;
-  max-width: 20rem;
+/****HOME PAGE*****/
+
+.townData {
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+  background-color: #cacfd4;
+  margin: 1em;
+  gap: 1.5em;
+  padding: 1.5em;
+  border-top: 1.5px #0a4862 solid;
+  margin-top: -1.5em;
+  font-family: Oswald;
 }
 
-form label.form input:required {
-  border-left: #0a4862 solid 6px;
+.townData section {
+  background-color: #4d729860;
+  box-shadow: 0 10px 10px 0 #4d7298;
+  padding: 0 0.5em 0.5em;
 }
 
-main {
-  padding: 0 2%;
-  min-height: 20rem;
+.townData img {
+  width: 75%;
+  height: auto;
 }

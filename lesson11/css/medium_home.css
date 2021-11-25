@@ -1,16 +1,18 @@
-@media only screen and (min-width: 40em) {
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300&display=swap");
+
+@media only screen and (min-width: 50em) {
   h2 {
     font-size: 25px;
   }
-  p {
-    font-size: 16px;
-  }
+
   header img {
     width: 128px;
   }
-  section {
-    font-size: 22px;
+
+  p {
+    font-size: large;
   }
+
   .navigation {
     display: flex;
   }
@@ -59,10 +61,6 @@
     text-decoration: underline;
   }
 
-  .weathersum {
-    font-size: 20px;
-  }
-
   .article img {
     float: right;
     width: 300px;
@@ -79,39 +77,43 @@
     justify-content: center;
   }
 
-  .forcast {
-    margin-top: 3em;
-    margin-bottom: 3em;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  .forcast article img {
-    width: 70px;
-    padding: 0.5em;
-  }
-
-  .forcast p {
-    text-align: center;
-    border-bottom: 1px solid black;
-    margin-bottom: 0;
-    margin-top: 0;
-    padding-bottom: 1em;
-  }
-
-  .weekday {
-    background-color: #869eb8;
-    padding: 1em;
-    margin: 0;
-    color: #fff;
-  }
-
   article {
     border-left: 1px solid black;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     border-right: 1px solid black;
+  }
+
+  .townData {
+    margin: -1.5em 7em 2em;
+    font-family: Oswald;
+  }
+
+  .townData section {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 2.5em 3em 1.5em 1.5em;
+    justify-items: center;
+  }
+
+  .townData section:nth-child(odd) img {
+    grid-column: 2;
+    grid-row: 1/5;
+    width: 90%;
+    height: 100%;
+    margin: 1.5em 0 0 0;
+  }
+
+  .townData section:nth-child(2) img {
+    grid-column: 1;
+    grid-row: 1/5;
+    width: auto;
+    height: 100%;
+    margin: 1.5em 0 0 0;
+  }
+
+  .townData section:nth-child(even) p {
+    grid-column: 2;
   }
 }
 
