@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300&display=swap");
+
+.logo {
+  width: 80px;
+  height: auto;
+  padding: 10px;
+}
+
+header {
+  background-color: #fff;
+  padding: 5px 0;
+  font-family: "Bebas Neue";
+  font-size: larger;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  word-break: normal;
+}
+
+nav {
+  margin: 0 auto;
+  max-width: 760px;
+  background-color: #0a4862;
+  font-family: "Oswald";
+}
+.navbar {
+  list-style: none;
+  padding: 0;
+}
+.navbar li:first-child {
+  display: block;
+}
+.navbar li {
+  display: none;
+}
+.navbar a {
+  display: block;
+  padding: 0.75rem;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  transition: 0.5s;
+}
+.navbar a:hover {
+  color: white;
+  background-color: #869eb8;
+}
+
+.navbar .current {
+  background-color: rgb(132, 178, 243);
+}
+
+.responsive li {
+  display: block;
+}
+
+footer {
+  background-color: #0a4862;
+  display: flex;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+footer,
+main {
+  max-width: 80em;
+  margin: 0 auto;
+}
+
+main {
+  text-align: center;
+  width: 100%;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+main img {
+  width: 500px;
+}
+
+main section {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+main p {
+  font-family: "Oswald", serif;
+  font-size: 1rem;
+  text-decoration: underline;
+}
+
+#banner {
+  background-color: #145c9e;
+  color: #2e2e38;
+  margin: -1em;
+  padding: 1em;
+  font-size: 1.5em;
+  text-align: center;
+  width: 100%;
+}
+
+h2 {
+  font-family: "Bebas Neue";
+  text-align: center;
+  text-decoration: underline;
+}
+
+#timestamp {
+  text-align: center;
+}

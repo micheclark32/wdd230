@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="css/small.css">
+      <link rel="stylesheet" href="css/medium.css">
+      <link rel="stylesheet" href="css/large.css">
+     
+    <!---Header-->
+    <title>WeatherBomb.com</title>
+    </head>
+    <body>
+      <div id="banner">
+      <p>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</p>
+    </div>
+
+    <header>
+      <img class="logo" src="images/lightning.png"><section>WeatherBomb.com<br><br>"We make the weather cool"</section>
+    </header>
+    <!--Nabbar-->
+    <nav>
+        <ul class="navbar">
+        <li><a href="#" onclick="toggleMenu()">&#9776;Main</a></li>
+        <li><a href="/lesson11/index.html">Home</a></li>
+        <li><a href="/lesson11/preston.html">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="/lesson11/stormcenter.html" class="current">Storm Center</a></li>
+        <li><a href="/lesson11/gallery.html">Gallery</a></li>
+    </ul>
+      </nav>
+
+    <main>
+        <form method="get" action="thanks.html">
+ <!-- User Information --> 
+            
+            <fieldset>
+                <legend>User Information</legend>
+                 <label class="form">Full Name* <input type="text" name="name" pattern="[a-zA-Z]*" required
+                                    placeholder="5 letters minimum" /></label>
+            
+                    <label class="form">Email <input type="email" name="email" placeholder="mike@gmail.com" /></label>
+                    <label class="form">Phone <input type="tel" name="phone" placeholder="509-777-7878" required/></label>
+                     <label class="form">Zip Code <input type="number" name="zip" placeholder="00000" required /></label>
+                </fieldset>
+            
+<!-- Storm Type List -->            
+             <fieldset>
+                <legend>Event Information</legend>
+                <label class="form">Storm Date <input type="date" name="stormDate"/></label>
+                                    
+                      <label class="form">Storm Type
+                         <input list="stormType">
+                    <datalist id="stormType" >                
+                         <option value="Flash Flood"></option>
+                         <option value="Heavy Rain"></option>
+                          <option value="High Winds"></option>
+                         <option value="Hurricane"></option>
+                          <option value="Severe Thunderstorms"></option>
+                          <option value="Tornado"></option>
+                         <option value="Tsunami"></option>
+            
+                    </datalist>
+                 </label>
+<!-- Range --> 
+                <label class="form" for="rating">Storm Severity (between 0 and 10)
+                 <input type="range" name="stormrating" id="rating" value="5" min="0" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                 <span id="ratingvalue">5</span>
+                </label>
+                <datalist id="tickmarks">
+                        <option value="0">
+                        <option value="1">
+                        <option value="2">
+                        <option value="3">
+                        <option value="4">
+                        <option value="5">
+                        <option value="6">
+                        <option value="7">
+                        <option value="8">
+                        <option value="9">
+                        <option value="10">
+                    </datalist>
+            
+            <!-- Drop-down --> 
+                <label class="form">Storm Region
+                    <select id="Region">
+                      <option selected="true" disabled="disabled">Select Region..</option>
+                        <option value="fishhaven">Fish Haven</option>
+                        <option value="preston">Preston</option>
+                        <option value="sodasprings">Soda Springs</option>
+            
+                    </select>
+                
+                </label>
+            
+    <!-- Radio -->                
+                <label class="form">User in-danger level</label>
+                 <label class="radio"><input type="radio" name="danger" value="yes"/>
+                     Yes</label>
+                <label class="radio"><input type="radio" name="danger" value="maybe"/>
+                     Maybe</label>
+                <label class="radio"><input type="radio" name="danger" value="no"/>
+                    No</label>
+            
+             <!-- Comment -->                    
+                            
+                    <label class="txtArea" for="stormComments">Additional Comments
+                    <textarea class="txtArea" id="stormComments" name="stormComments" rows="5" cols="30"></textarea>
+        
+                    </label>
+            
+            
+            
+                       
+                        <input type="submit" value="Submit" class="submitBtn">
+                    </form>
+
+    </main>
+
+
+<!--Footer-->
+<footer>
+    
+    <p>&#169;<span id= "currentyear"></span> • Michael Clark • Washington • <a href="https://www.byui.edu/online">BYU Online</a> </p> 
+    <script src= "js/time.js"></script>
+    <script src="https://kit.fontawesome.com/9e29f97517.js" crossorigin="anonymous"></script>
+      <script src="js/navbar.js"></script>
+      <script src="js/satbanner.js"></script>
+      <script src="js/time.js"></script>
+      <script src="js/tickmark.js"></script>
+  </footer>
+</body>
+</html>
