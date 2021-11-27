@@ -3,13 +3,14 @@
     <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Fish Haven Weather information page.">
       <link rel="stylesheet" href="../css/normalize.css">
       <link rel="stylesheet" href="css/small.css">
       <link rel="stylesheet" href="css/medium.css">
       <link rel="stylesheet" href="css/large.css">
       <script src="js/forcast.js"></script>
       <script src="js/weatherapi.js"></script>
-      <script src="js/eventPreston.js"></script>
+      <script src="js/eventFish.js"></script>
       
       
     
@@ -27,70 +28,75 @@
         <ul class="navbar">
         <li><a href="#" onclick="toggleMenu()">&#9776;Main</a></li>
         <li><a href="index.html">Home</a></li>
-        <li><a href="preston.html" class="current">Preston</a></li>
+        <li><a href="preston.html" >Preston</a></li>
         <li><a href="soda_springs.html">Soda Springs</a></li>
-        <li><a href="fish_haven.html">Fish Haven</a></li>
+        <li><a href="fish_haven.html" class="current">Fish Haven</a></li>
         <li><a href="stormcenter.html">Storm Center</a></li>
         <li><a href="gallery.html">Gallery</a></li>
     </ul>
       </nav>
 
+<!--Weather Summary-->
+
 <main>
-  <h2>Preston Idaho</h2>
+  <h2>Fish Haven</h2>
                 <div class="hero">
                     <article class="weathersum">
                         <h3>Weather Summary</h3>
                         <ul>
-                            <li>Currently: <span id="p-description" class="sum"></span></li>
-                            <li>Temp: <span id="p-current-temp" class="sum"></span></li>
-                            <li>Wind Chill: <span id="p-wind-chill" class="sum"></span></li>
-                            <li>Humidity: <span id="p-humidity" class="sum"></span></li>
-                            <li>Wind Speed: <span id="p-wind-speed" class="sum"></span></li>
+                            <li>Currently: <span id="f-description" class="sum"></span></li>
+                            <li>Temp: <span id="f-current-temp" class="sum"></span></li>
+                            <li>Wind Chill: <span id="f-wind-chill" class="sum"></span></li>
+                            <li>Humidity: <span id="f-humidity" class="sum"></span></li>
+                            <li>Wind Speed: <span id="f-wind-speed" class="sum"></span></li>
                         </ul>
                     </article>
                     <picture>
-                        <source srcset="images/hero_small.jpg" media="(max-width:550px)">
-                        <source srcset="images/hero_med.jpg" media="(max-width:1000px)"> 
-                        <img src="images/hero_larg.jpg" alt="hill view">
+                        <source srcset="images/fishhaven.jpg" media="(max-width:550px)">
+                        <source srcset="images/fishhaven.jpg" media="(max-width:1000px)"> 
+                        <img src="images/fishhaven.jpg" alt="hill view">
                    </picture>
                 </div>
 
-<!----Forecast------->
+      <!--Forcast-->
+
     <h3>5 Day Forecast</h3>
     <div class="forcast">
       <article>
-          <p class="weekday"><span id="p-day1"></span></p>
-          <img id="p-icon1" src="" alt="">
-          <p><span id="p-temp1"></span></p>
+          <p class="weekday"><span id="f-day1"></span></p>
+          <img id="f-icon1" src="" alt="">
+          <p><span id="f-temp1"></span></p>
       </article>
       <article>
-          <p class="weekday"><span id="p-day2"></span></p>
-          <img id="p-icon2" src="" alt="">
-          <p><span id="p-temp2"></span></p>
+          <p class="weekday"><span id="f-day2"></span></p>
+          <img id="f-icon2" src="" alt="">
+          <p><span id="f-temp2"></span></p>
       </article>
       <article>
-          <p class="weekday"><span id="p-day3"></span></p>
-          <img id="p-icon3" src="" alt="">
-          <p><span id="p-temp3"></span></p>
+          <p class="weekday"><span id="f-day3"></span></p>
+          <img id="f-icon3" src="" alt="">
+          <p><span id="f-temp3"></span></p>
       </article>
       <article>
-        <p class="weekday"><span id="p-day4"></span></p>
-        <img id="p-icon4" src="" alt="">
-        <p><span id="p-temp4"></span></p>
+        <p class="weekday"><span id="f-day4"></span></p>
+        <img id="f-icon4" src="" alt="">
+        <p><span id="f-temp4"></span></p>
       </article>
       <article>
-        <p class="weekday"><span id="p-day5"></span></p>
-        <img id="p-icon5" src="" alt="">
-        <p><span id="p-temp5"></span></p>
+        <p class="weekday"><span id="f-day5"></span></p>
+        <img id="f-icon5" src="" alt="">
+        <p><span id="f-temp5"></span></p>
       </article>
   </div>
 
-  
-<h2>Upcoming Events</h2>
-<div id="article">
-<div class="events-p" ></div>
-</div>
+  <!--Events-->
 
+  <h2>Upcoming Events</h2>
+  <div id="article">
+  <div class="events-f" ></div>
+  </div>
+
+<!--Article-->
   <h2>Article</h2>
   <div class="article">
   <h4>"What Students Are Saying About Video Game Limits, Parental Involvement in Dating and Road Trips"</h4>
@@ -102,6 +108,7 @@
   <p>This week, we asked teenagers if there should be limits on the amount of time that young people spend playing video games; what place, if any, their parents had in their dating lives; and if they’ve ever taken a road trip.<a href="https://www.nytimes.com/2021/10/14/learning/what-students-are-saying-about-video-game-limits-parental-involvement-in-dating-and-road-trips.html">Continues to read, click here</a></p>
 </div>
 
+<!--Contact-->
 
     <h2>Contact</h2>
     <div class="contact">
@@ -127,13 +134,13 @@
 
 <footer>
     <p>&#169;<span id= "currentyear"></span> • Michael Clark • Washington • <a href="https://www.byui.edu/online">BYU Online </a>• Data from OpenWeatherMap.org </p> 
-  </footer>
-  <script src= "js/time.js"></script>
-  <script src="js/satbanner.js"></script>
-  <script src="js/navbar.js"></script>
-  <script src="https://kit.fontawesome.com/9e29f97517.js" crossorigin="anonymous"></script>
-  <script src="js/forcast.js"></script>
-    <script src="js/weatherapi.js"></script>
-    <script src="js/eventPreston.js"></script>
+</footer>
+      <script src="js/forcast.js"></script>
+      <script src="js/weatherapi.js"></script>
+      <script src="js/eventFish.js"></script>
+      <script src= "js/time.js"></script>
+    <script src="js/satbanner.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="https://kit.fontawesome.com/9e29f97517.js" crossorigin="anonymous"></script>
 </body>
 </html>

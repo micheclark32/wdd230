@@ -173,6 +173,17 @@ h3 {
   box-shadow: 5px 5px 5px #474751;
 }
 
+#article {
+  border: dotted 1px #0a4862;
+  background-color: #cacfd4;
+  padding: 1em;
+  color: #0a4862;
+  text-align: center;
+  font-family: "Oswald";
+  font-size: larger;
+  box-shadow: 5px 5px 5px #474751;
+}
+
 .article img {
   width: 100%;
 }

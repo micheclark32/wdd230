@@ -14,6 +14,7 @@ fetch(requestURL)
     console.log(towns);
 
     const townSelection = towns.filter(town => town.averageRainfall < 17);
+    
 
    
    
