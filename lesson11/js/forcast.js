@@ -9,8 +9,8 @@ fetch(apiURL2)
   
   for (let day = 0; day <= 4; day ++) {
       let date = new Date(list[day].dt_txt);
-      document.getElementById(`p-day${day+1}`).textContent = dayOfWeek[date.getDay()];
-      document.getElementById(`p-temp${day+1}`).textContent = list[day].main.temp + "°F";
+      document.getElementById(`p-day${day+1}`).innerHTML = dayOfWeek[date.getDay()];
+      document.getElementById(`p-temp${day+1}`).innerHTML = list[day].main.temp + "°F";
 
       const imgAlt = list[day].weather[0].description;
       const imageSrc = 'https://openweathermap.org/img/wn/' + list[day].weather[0].icon + '@2x.png';
@@ -22,7 +22,7 @@ fetch(apiURL2)
 
   /***Soda Springs Forcast */
 
-  const SapiURL2 = "https://api.openweathermap.org/data/2.5/forecast?id=5607916&units=imperial&appid=e85fab00cec86afdaf861396b3d914f1";
+const SapiURL2 = "https://api.openweathermap.org/data/2.5/forecast?id=5607916&units=imperial&appid=e85fab00cec86afdaf861396b3d914f1";
 fetch(SapiURL2)
 .then((response) => response.json())
 .then((jsObject) => {
@@ -33,8 +33,8 @@ fetch(SapiURL2)
   
   for (let day = 0; day <= 4; day ++) {
       let date = new Date(list[day].dt_txt);
-      document.getElementById(`s-day${day+1}`).textContent = dayOfWeek[date.getDay()];
-      document.getElementById(`s-temp${day+1}`).textContent = list[day].main.temp + "°F";
+      document.getElementById(`s-day${day+1}`).innerHTML = dayOfWeek[date.getDay()];
+      document.getElementById(`s-temp${day+1}`).innerHTML = list[day].main.temp + "°F";
 
       const imgAlt = list[day].weather[0].description;
       const imageSrc = 'https://openweathermap.org/img/wn/' + list[day].weather[0].icon + '@2x.png';
@@ -57,8 +57,8 @@ fetch(SapiURL2)
     
     for (let day = 0; day <= 4; day ++) {
         let date = new Date(list[day].dt_txt);
-        document.getElementById(`f-day${day+1}`).textContent = dayOfWeek[date.getDay()];
-        document.getElementById(`f-temp${day+1}`).textContent = list[day].main.temp + "°F";
+        document.getElementById(`f-day${day+1}`).innerHTML = dayOfWeek[date.getDay()];
+        document.getElementById(`f-temp${day+1}`).innerHTML = list[day].main.temp + "°F";
   
         const imgAlt = list[day].weather[0].description;
         const imageSrc = 'https://openweathermap.org/img/wn/' + list[day].weather[0].icon + '@2x.png';
