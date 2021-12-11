@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="../css/normalize.css">
+      <link rel="stylesheet" href= "css/small.css">
+      <link rel="stylesheet" href="css/medium.css">
+      <link rel="stylesheet" href="css/large.css">
+      <link rel="shortcut icon" href="/favicon.ico">
+     
+    <!---Header-->
+    <title>Home</title>
+    </head>
+    <body>
+
+    <header>
+      <img class="logo" src="images/lightning.png" alt="logo"><section>Moses Lake Chamber of Commerce</section>
+    </header>
+    <!--Navbar-->
+    <nav>
+        <ul class="navbar">
+        <li><a href="#" onclick="toggleMenu()">&#9776;Main</a></li>
+        <li><a href="index.html" class="current">Home</a></li>
+        <li><a href="city.html" >Moses Lake</a></li>
+        <li><a href="join.html">Join Us</a></li>
+        <li><a href="directory.html">Business Directory</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+      </nav>
+<!--Main section for home page-->
+<main>
+
+  <h2>3 Day Forecast</h2>
+  <div class="forcast">
+    <article>
+        <p class="weekday"><span id="p-day1"></span></p>
+        <img id="p-icon1" src="" alt="">
+        <p><span id="p-temp1"></span></p>
+    </article>
+    <article>
+        <p class="weekday"><span id="p-day2"></span></p>
+        <img id="p-icon2" src="" alt="">
+        <p><span id="p-temp2"></span></p>
+    </article>
+    <article>
+        <p class="weekday"><span id="p-day3"></span></p>
+        <img id="p-icon3" src="" alt="">
+        <p><span id="p-temp3"></span></p>
+    </article>
+</div>
+
+<article class="weathersum">
+  <h3>Moses Lake Now</h3>
+  <ul>
+      <li>Description: <span id="p-description" class="sum"></span></li>
+      <li>Temp: <span id="p-current-temp" class="sum"></span></li>
+      <li>Humidity: <span id="p-humidity" class="sum"></span></li>
+  </ul>
+</article>
+  
+  
+<!--Article and Contact boxes-->
+   <h2>Business Highlights</h2>
+    <div class="article">
+    <h4></h4>
+  
+    <p></p>
+  </div>
+
+  <input type="submit" value="Join with Us!" class="submitBtn" style="margin:0px auto; display:block;">
+
+    <h2>Contact</h2>
+    <div class="contact">
+  
+      <div>
+
+          <ul>
+              <li>&#9742; 208.291.2222</li>
+              <li>&#9993; cityofml@gmail.com</li> 
+              <a href="https://www.facebook.com/"><i class="fab fa-facebook-square fa-2x"></i></a>
+              <a href="https://www.instagram.com/"><i class="fab fa-instagram fa-2x"></i></a>
+              <a href="https://twitter.com/"><i class="fab fa-twitter-square fa-2x"></i></a>
+          </ul>
+      </div>
+  </div>
+</main>
+
+<!--Footer-->
+<footer>
+    <p>&#169;<span id= "currentyear"></span> • Michael Clark • <a href="https://www.byui.edu/online">BYU Online</a>• Data from OpenWeatherMap.org </p> 
+   
+  </footer>
+  <script src= "js/time.js"></script>
+  <script src="https://kit.fontawesome.com/9e29f97517.js" crossorigin="anonymous"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/forcast.js"></script>
+    <script src="js/weatherapi.js"></script>
+</body>
+</html>

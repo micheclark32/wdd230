@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Rajdhani&display=swap");
+
+.logo {
+  width: 80px;
+  height: auto;
+  padding: 10px;
+}
+
+header,
+footer {
+  background-color: #9ac2c9;
+  padding: 0;
+  font-family: "Cinzel";
+  font-size: larger;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  word-break: normal;
+  width: 100%;
+  height: 100%;
+}
+
+nav {
+  margin: 0 auto;
+  max-width: 1000px;
+  background-color: #b9d8c2;
+  font-family: "Oswald";
+}
+.navbar {
+  list-style: none;
+  padding: 0;
+}
+.navbar li:first-child {
+  display: block;
+}
+.navbar li {
+  display: none;
+}
+.navbar a {
+  display: block;
+  padding: 0.75rem;
+  text-align: center;
+  text-decoration: solid;
+  color: #fff;
+  font-weight: 700;
+  transition: 0.5s;
+}
+.navbar a:hover {
+  color: white;
+  background-color: #9ac2c9;
+}
+
+.navbar .current {
+  background-color: #9ac2c9;
+}
+
+.responsive li {
+  display: block;
+}
+
+footer {
+  display: flex;
+  color: black;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+main {
+  padding: 1em;
+}
+
+html {
+  background-color: #4a5043;
+}
+
+.hero {
+  margin: 0.5em;
+}
+
+.hero img {
+  width: 100%;
+}
+
+.weathersum {
+  display: flex;
+  flex-direction: column;
+  background-color: #b9d8c2;
+  width: 15em;
+  padding: 1px 10px 1px 10px;
+  margin: auto;
+  box-shadow: 0 5px 10px 0 #2e2e38;
+}
+
+.weathersum h3 {
+  font-family: "Cinzel", "sans-serif";
+  text-align: center;
+  margin-bottom: -0.5em;
+  border-bottom: 2px solid #869eb8;
+  color: #fff;
+}
+
+.weathersum ul {
+  padding: 0;
+}
+
+.weathersum li {
+  list-style: none;
+  font-family: "Rajdhani", "serif";
+  margin: 4px;
+  text-align: center;
+  color: white;
+}
+
+.forcast {
+  font-family: "Cinzel", "sans-serif";
+}
+
+.weekday {
+  color: #fff;
+  padding: 1em;
+  margin: 0;
+}
+
+.forcast {
+  margin-top: 3em;
+  margin-bottom: 3em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.forcast article img {
+  width: 70px;
+  padding: 0.5em;
+}
+
+.forcast p {
+  text-align: center;
+  border-bottom: 1px solid black;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-bottom: 1em;
+}
+
+.forcast article {
+  background-color: #869eb8;
+}
+
+span.sum {
+  color: #869eb8;
+}
+
+h2 {
+  text-align: center;
+  text-size-adjust: 20px;
+  color: #fff;
+  font-family: "Cinzel", "sans-serif";
+}
+
+h3 {
+  display: none;
+  font-family: "Bebas Neue";
+}
+
+.contact {
+  border: dotted 1px #0a4862;
+  background-color: #cacfd4;
+  padding: 1em;
+  color: #0a4862;
+}
+
+.contact img {
+  width: 100%;
+}
+
+.contact li {
+  list-style: none;
+  font-family: "Oswald";
+  display: grid;
+}
+
+contact a {
+  display: flex;
+}
+
+.article {
+  border: dotted 1px #0a4862;
+  background-color: #cacfd4;
+  padding: 1em;
+  color: #0a4862;
+  text-align: center;
+  font-family: "";
+  font-size: larger;
+  box-shadow: 5px 5px 5px #474751;
+}
+
+.article h4 {
+  text-decoration: underline;
+}
+
+i {
+  width: 40px;
+  margin-top: 1em;
+}
+
+i:hover {
+  opacity: 0.7;
+}
+
+/*---Join page--*/
+
+form fieldset {
+  margin: 2rem 0;
+  border: 1px solid #8aa1b1;
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+
+form legend {
+  color: #8aa1b1;
+  margin: 0 1rem;
+  padding: 0.5rem;
+  text-align: center;
+  font-family: "Rajdhani";
+}
+
+form label.form,
+form div {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 1rem;
+  color: #8aa1b1;
+  font-size: 0.8rem;
+  font-family: "Rajdhani";
+}
+
+form label.form input,
+form label.form select {
+  display: block;
+  font-size: 1.2rem;
+  border: solid 1px rgb(243, 238, 238);
+  border-radius: 5px;
+  color: #8aa1b1;
+  width: 100%;
+  max-width: 20rem;
+  max-height: 40rem;
+  background-color: rgba(15, 14, 14, 0.1);
+}
+
+form label.form {
+  font-size: 1.2rem;
+  margin: 0 auto;
+}
+
+form input.submitBtn {
+  border: none;
+  align-items: center;
+  background-color: #8aa1b1;
+  color: white;
+  border-radius: 1rem;
+  padding: 0.75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 100%;
+  font-family: "Rajdhani";
+  max-width: 20rem;
+}
+
+form label.form input:required {
+  border-left: #8aa1b1 solid 6px;
+}
+
+label.radio {
+  font-family: "Rajdhani";
+  color: #8aa1b1;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+input.submitBtn {
+  align-items: center;
+  justify-content: center;
+  background-color: #8aa1b1;
+  color: white;
+  border-radius: 1rem;
+  padding: 0.75rem 1.5rem;
+  margin: 0 auto;
+  width: 50%;
+  font-family: "Rajdhani";
+}
+
+/*Contact Page*/
+
+form label.txtArea {
+  display: grid;
+  padding: 10px;
+  width: 50%;
+  color: #8aa1b1;
+  font-family: Rajdhani;
+}
+
+.google {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.google iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.city-info {
+  list-style: none;
+  color: #8aa1b1;
+  font-family: Rajdhani;
+  text-align: center;
+  font-size: larger;
+}

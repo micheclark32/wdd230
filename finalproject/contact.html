@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="css/small.css">
+      <link rel="stylesheet" href="css/medium.css">
+      <link rel="stylesheet" href="css/large.css">
+      <link rel="shortcut icon" href="/favicon.ico">
+     
+    <!---Header-->
+    <title>Contact</title>
+    </head>
+    <body>
+
+    <header>
+      <img class="logo" src="images/lightning.png" alt="logo"><section>Moses Lake Chamber of Commerce</section>
+    </header>
+    <!--Nabbar-->
+    <nav>
+        <ul class="navbar">
+        <li><a href="#" onclick="toggleMenu()">&#9776;Main</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="city.html">Moses Lake</a></li>
+        <li><a href="join.html" >Join Us</a></li>
+        <li><a href="directory.html">Business Directory</a></li>
+        <li><a href="contact.html" class="current">Contact Us</a></li>
+    </ul>
+      </nav>
+
+    <main>
+        <div class="google">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4053.218295248803!2d-119.27823875134672!3d47.13094149443946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549938a4c5a42309%3A0x142dcc92225d5b11!2s401%20S%20Balsam%20St%2C%20Moses%20Lake%2C%20WA%2098837!5e0!3m2!1sen!2sus!4v1639193501296!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    <br>
+
+    <div class="city-info">
+    <li>City of Moses Lake</li>
+    <li>&#9742; 208.291.2222</li>
+    <li>&#9993; cityofML@gmail.com</li>
+    </div>
+
+        <form method="get" action="thanks.html">
+            <!-- Contact Information --> 
+                       
+            <fieldset>
+                <legend>Please fill to be contacted</legend>
+                 <label class="form">Full Name* <input type="text" name="name" pattern="[a-zA-Z]*" required
+                                    placeholder="5 letters minimum" /></label>
+            
+                    <label class="form">Email <input type="email" name="email" placeholder="mike@gmail.com" required /></label>
+                    <label class="form">Phone <input type="tel" name="phone" placeholder="509-777-7878" required/></label>
+                
+                
+                       
+                    
+                       
+               <!-- Comment -->                
+               <label class="txtArea" for="stormComments">What do you want to share with us?
+                <textarea class="txtArea" id="stormComments" name="stormComments" rows="5" cols="30"></textarea>
+    
+                </label>
+                       
+                   
+            </fieldset>    
+                                  
+        <input type="submit" value="Submit" class="submitBtn">
+        </form>
+
+        <div class="directors">
+        <h2>Board of Directors</h2>
+        <li></li>
+    </div>
+    </main>
+
+
+<!--Footer-->
+<footer>
+    
+    <p>&#169;<span id= "currentyear"></span> • Michael Clark • Washington • <a href="https://www.byui.edu/online">BYU Online</a> </p> 
+    
+  </footer>
+    <script src="https://kit.fontawesome.com/9e29f97517.js" crossorigin="anonymous"></script>
+      <script src="js/navbar.js"></script>
+      <script src= "js/time.js"></script>
+</body>
+</html>

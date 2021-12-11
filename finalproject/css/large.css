@@ -1,0 +1,9 @@
+@media only screen and (min-width: 80em) {
+  h2 {
+    font-size: 30px;
+  }
+
+  .navigation a {
+    font-size: 22px;
+  }
+}
