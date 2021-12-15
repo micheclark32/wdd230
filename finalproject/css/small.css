@@ -219,6 +219,7 @@ i:hover {
 .join li {
   color: #869eb8;
   text-decoration: none;
+  font-size: 18px;
 }
 
 .home-text p {
@@ -336,6 +337,13 @@ input.submitBtn {
   margin: 0 auto;
   width: 50%;
   font-family: "Rajdhani";
+}
+
+.member p {
+  font-family: "Rajdhani";
+  color: #8aa1b1;
+  text-align: center;
+  font-size: 18px;
 }
 
 /*Contact Page*/
