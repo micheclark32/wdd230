@@ -6,6 +6,10 @@
   padding: 10px;
 }
 
+a {
+  color: #869eb8;
+}
+
 header,
 footer {
   background-color: #9ac2c9;
