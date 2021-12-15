@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Rajdhani&display=swap");
+
+body {
+  font-family: "Rajdhani";
+}
+
+main {
+  margin: 0 auto;
+  max-width: 70em;
+}
+
+h2 {
+  text-align: center;
+  font-size: 22px;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+a:hover {
+  color: black;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 8px;
+  padding: 1rem;
+  justify-items: center;
+  box-shadow: 0 0 2px grey;
+}
+
+.cards section {
+  text-align: center;
+  padding: 1rem;
+  border: solid 2px gray;
+  background-color: #94c2e7;
+  max-width: 250px;
+  color: black;
+}
+
+.cards section img {
+  width: 75%;
+}
+
+@media screen and (max-width: 700px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    margin: 0;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}

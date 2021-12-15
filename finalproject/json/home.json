@@ -1,0 +1,26 @@
+{
+    "business": [
+      {
+        "name": "Columbia Harold",
+        "url": "https://columbiabasinherald.com/",
+        "phone":  "509-765-4561"  ,
+        "email": "" ,
+        "imageurl": "https://hagadone.media.clients.ellingtoncms.com/static-3/columbiabasinherald/images/logo.png"
+      },
+      { 
+      "name": "Samaritan Healthcare",
+      "url": "https://www.samaritanhealthcare.com/",
+      "phone":  "509-765-5606"  ,
+      "email": "" ,
+      "imageurl": "https://www.samaritanhealthcare.com/wp-content/uploads/2019/10/Samaritan_RegularLogo_2019_RGB_WEB.png"
+      },
+      { 
+        "name": "LocalTel",
+        "url": "https://www.localtel.com/",
+        "phone":  "509-707-7777"  ,
+        "email": "" ,
+        "imageurl": "https://www.localtel.com/assets/site-graphics/LocalTel-main-logo.gif"
+        }
+
+    ]
+}

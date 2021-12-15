@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="css/small.css">
+      <link rel="stylesheet" href="css/medium.css">
+      <link rel="stylesheet" href="css/large.css">
+      <link rel="stylesheet" href="css/business.css">
+
+      <link rel="shortcut icon" href="/favicon.ico">
+     
+    <!---Header-->
+    <title>Directory</title>
+    </head>
+    <body>
+
+    <header>
+      <img class="logo" src="https://www.cityofml.com/ImageRepository/Document?documentID=6936" alt="logo"><section>Chamber of Commerce</section>
+    </header>
+    <!--Nabbar-->
+    <nav>
+        <ul class="navbar">
+        <li><a href="#" onclick="toggleMenu()">&#9776;Main</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="city.html">Moses Lake</a></li>
+        <li><a href="join.html" >Join Us</a></li>
+        <li><a href="directory.html" class="current">Business Directory</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+      </nav>
+
+    <main>
+
+      <h2>Business Directory</h2>
+      <center>
+      <button type="button" onclick="listView()" class="button">&#9776;</button>
+        <button type="button" onclick="gridView()" class="button">&#9783;</button>
+      </center>
+        <br>
+        <br>
+     
+      <div class="cards"></div>
+        
+    </main>
+
+
+<!--Footer-->
+<footer>
+    
+    <p>&#169;<span id= "currentyear"></span> • Michael Clark • Washington • <a href="https://www.byui.edu/online">BYU Online</a> </p> 
+    
+  </footer>
+    <script src="https://kit.fontawesome.com/9e29f97517.js" crossorigin="anonymous"></script>
+      <script src="js/navbar.js"></script>
+      <script src= "js/time.js"></script>
+      <script src= "js/business.js"></script>
+      <script src= "js/layout.js"></script>
+</body>
+</html>

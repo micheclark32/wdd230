@@ -1,0 +1,61 @@
+{
+    "business": [
+      {
+        "name": "Columbia Harold",
+        "url": "https://columbiabasinherald.com/",
+        "phone":  "509-765-4561"  ,
+        "email": "" ,
+        "imageurl": "https://hagadone.media.clients.ellingtoncms.com/static-3/columbiabasinherald/images/logo.png"
+      },
+      { 
+      "name": "Samaritan Healthcare",
+      "url": "https://www.samaritanhealthcare.com/",
+      "phone":  "509-765-5606"  ,
+      "email": "" ,
+      "imageurl": "https://www.samaritanhealthcare.com/wp-content/uploads/2019/10/Samaritan_RegularLogo_2019_RGB_WEB.png"
+      },
+      { 
+        "name": "LocalTel",
+        "url": "https://www.localtel.com/",
+        "phone":  "509-707-7777"  ,
+        "email": "" ,
+        "imageurl": "https://www.localtel.com/assets/site-graphics/LocalTel-main-logo.gif"
+        },
+        { 
+          "name": "Michaels on the Lake",
+          "url": "https://www.michaelsonthelake.com/",
+          "phone":  "509-765-1611"  ,
+          "email": "" ,
+          "imageurl": "https://assets.website-files.com/606b86b0de084d5fc3fbe784/606b9857319ac946a6832acb_logo-michaels%20on%20the%20lake.png"
+          },
+          { 
+            "name": "Budget Blinds",
+            "url": "https://budgetblinds.com/moseslake/",
+            "phone":  "509-899-7846"  ,
+            "email": "" ,
+            "imageurl": "https://budgetblinds.com/globalassets/bb-header-logos/budget-blinds-logo-bold.svg?hfc-r=VIEQDE"
+            },
+            { 
+              "name": "Washington Trust Bank",
+              "url": "https://www.watrust.com/",
+              "phone":  "509-765-7811"  ,
+              "email": "" ,
+              "imageurl": "https://www.watrust.com/images/bug/bug-white.svg"
+              },
+              { 
+                "name": "IFiber One",
+                "url": "https://www.ifiberone.com/",
+                "phone":  "509-398-8201"  ,
+                "email": "" ,
+                "imageurl": "https://bloximages.newyork1.vip.townnews.com/ifiberone.com/content/tncms/custom/image/91259510-018d-11eb-bb03-e7a60a4a20e0.png?resize=400%2C37"
+                },
+                { 
+                  "name": "J's Teriyaki Grill",
+                  "url": "http://www.jsteriyakigrill.com/",
+                  "phone":  "509-765-5155"  ,
+                  "email": "" ,
+                  "imageurl": "http://www.jsteriyakigrill.com/wp-content/uploads/2016/12/11-1.jpg"
+                  }
+
+    ]
+}

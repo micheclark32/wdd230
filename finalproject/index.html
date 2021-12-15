@@ -7,6 +7,7 @@
       <link rel="stylesheet" href= "css/small.css">
       <link rel="stylesheet" href="css/medium.css">
       <link rel="stylesheet" href="css/large.css">
+      <link rel="stylesheet" href="css/home.css">
       <link rel="shortcut icon" href="/favicon.ico">
      
     <!---Header-->
@@ -15,7 +16,7 @@
     <body>
 
     <header>
-      <img class="logo" src="images/lightning.png" alt="logo"><section>Moses Lake Chamber of Commerce</section>
+      <img class="logo" src="https://www.cityofml.com/ImageRepository/Document?documentID=6936" alt="logo"><section>Chamber of Commerce</section>
     </header>
     <!--Navbar-->
     <nav>
@@ -30,6 +31,21 @@
       </nav>
 <!--Main section for home page-->
 <main>
+  <div class="home-text"><h2>Our Mission</h2> 
+  <p>We invite you to join our business adventures here in Moses Lake. We hope this page gives you the excitement of an entrepreneur! </p>
+  <p>Please check out our local businesses and thanks for visiting Moses Lake!</p>
+  </div>
+
+<div class="hero">
+  <picture>
+    <center>
+    <source srcset="images/ml_small.jpg" media="(max-width:500px)">
+    <source srcset="images/ml_med.jpg" media="(max-width:800px)"> 
+    <img src="images/ml_large.jpg" alt="Moses Lake">
+  </center>
+</picture>
+</div>
+
 
   <h2>3 Day Forecast</h2>
   <div class="forcast">
@@ -51,38 +67,52 @@
 </div>
 
 <article class="weathersum">
-  <h3>Moses Lake Now</h3>
+  <h3>Today</h3>
   <ul>
       <li>Description: <span id="p-description" class="sum"></span></li>
       <li>Temp: <span id="p-current-temp" class="sum"></span></li>
       <li>Humidity: <span id="p-humidity" class="sum"></span></li>
   </ul>
 </article>
-  
-  
-<!--Article and Contact boxes-->
-   <h2>Business Highlights</h2>
-    <div class="article">
-    <h4></h4>
-  
-    <p></p>
-  </div>
+<br>
 
+
+
+<div class="join">
+<h2>Upcoming Events</h2>
+<center>
+<li>No Upcoming Events till Summer</li>
+</center>
+</div>
+
+   <div class="highlight"><h2>Business Highlights</h2></div>
+   <!--JSON Data-->
+    <div class="cards"></div>
+
+    <h2>Want your local business to be highlighted?</h2>
+    <br>
+    <div class="join"><h2>Join the Chamber of Commerce!</h2>
+  <center>
+    <i class="fa fa-angle-double-down center" style="font-size:48px;color:white"></i>
+  </center>
+<br>
+    <form method="get" action="join.html">
   <input type="submit" value="Join with Us!" class="submitBtn" style="margin:0px auto; display:block;">
+</form>
+</div>
 
-    <h2>Contact</h2>
-    <div class="contact">
-  
-      <div>
+   
 
-          <ul>
+<div class="contact">
+    
+            <ul>
               <li>&#9742; 208.291.2222</li>
               <li>&#9993; cityofml@gmail.com</li> 
               <a href="https://www.facebook.com/"><i class="fab fa-facebook-square fa-2x"></i></a>
               <a href="https://www.instagram.com/"><i class="fab fa-instagram fa-2x"></i></a>
               <a href="https://twitter.com/"><i class="fab fa-twitter-square fa-2x"></i></a>
           </ul>
-      </div>
+      
   </div>
 </main>
 
@@ -96,5 +126,6 @@
     <script src="js/navbar.js"></script>
     <script src="js/forcast.js"></script>
     <script src="js/weatherapi.js"></script>
+    <script src="js/home.js"></script>
 </body>
 </html>
